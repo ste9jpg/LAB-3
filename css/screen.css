@@ -127,6 +127,17 @@ progress {
 textarea {
   overflow: auto;
 }
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  background-color: #f2f2f2; 
+  border: 1px solid #ccc; 
+  color: #333; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+}
 
 /**
  * 1. Add the correct box sizing in IE 10-.
