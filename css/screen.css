@@ -214,6 +214,17 @@ label {
   display: block;
 }
 
+body {
+  padding: 20px; /* Adjust overall padding */
+}
+
+.form-container {
+  padding: 30px; /* Add padding inside the form container */
+}
+
+.form-container h1 {
+  margin-bottom: 20px; /* Add margin below the heading */
+}
 @media (max-width: 768px) {
   input[type="text"],
   input[type="email"],
