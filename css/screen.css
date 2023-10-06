@@ -229,6 +229,13 @@ h1{
 	font-size: 1.5em;
 	background-color: #b3b3b3;
 }
+#input-email, textarea{
+	display:block;
+    width:100%;
+	padding: .5rem;
+	font-size: 18px;
+    border-radius: 5px;
+}
 #input-submit {
 	margin: 1rem 0;
 	width: auto;
@@ -237,6 +244,7 @@ h1{
 		background: #595959;
 	}
 }
+
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 620px) {
   p {
