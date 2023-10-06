@@ -230,6 +230,10 @@ h1{
 	background-color: #b3b3b3;
 }
 
+label {
+	font-family: arial; 
+	font-size: 0.9em;
+}
 input[type="checkbox"] + label{
   width: auto;
   height: auto;
