@@ -33,7 +33,6 @@ html {
 }
 body {
   line-height: inherit;
-  font-family: 'Lato', 'Merriweather', 'Roboto', sans-serif; /* 1 */
 }
 ol, ul {
 	list-style: none;
