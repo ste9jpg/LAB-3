@@ -220,11 +220,6 @@ label {
     padding: 2rem;
     border-radius: 5px;
 	background-color: #f2f2f2;
-	label{
-		font-family: 'Lato', 'Merriweather', 'Roboto';
-		font-size: 14px;
-	}
-
 }
 
 h1{
@@ -233,6 +228,17 @@ h1{
 	font-family: 'Lato', 'Merriweather', 'Roboto', bold;
 	font-size: 1.5em;
 	background-color: #b3b3b3;
+}
+
+input[type="checkbox"] + label{
+  width: auto;
+  height: auto;
+  display: inline;
+  vertical-align: top;
+}
+
+#input-age-verification{
+  padding: 1em;
 }
 
 #input-submit {
