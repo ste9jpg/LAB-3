@@ -229,6 +229,19 @@ h1{
 	font-size: 1.5em;
 	background-color: #b3b3b3;
 }
+#input-submit {
+	border:0;
+	background:#737373;
+	padding: .rem;
+	color: white;
+	margin: 1rem 0;
+	width: auto;
+	text-transform: uppercase;
+	cursor:pointer;
+	&: hover{
+		background: #595959;
+	}
+}
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 620px) {
   p {
