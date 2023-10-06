@@ -230,10 +230,12 @@ h1{
 	background-color: #b3b3b3;
 }
 
-label {
-	font-family: arial; 
-	font-size: 0.9em;
+input[type="email"]{
+	font-family: 'Lato', 'Merriweather', 'Roboto';
+	font-size: 0.875em;
+	
 }
+
 input[type="checkbox"] + label{
   width: auto;
   height: auto;
