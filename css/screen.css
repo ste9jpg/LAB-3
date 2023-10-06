@@ -230,12 +230,8 @@ h1{
 	background-color: #b3b3b3;
 }
 #input-submit {
-	border:0;
-	padding: .rem;
-	color: white;
 	margin: 1rem 0;
 	width: auto;
-	text-transform: uppercase;
 	cursor:pointer;
 	&: hover{
 		background: #595959;
